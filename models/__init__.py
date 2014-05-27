@@ -1,9 +1,9 @@
 from google.appengine.api import mail
 from lib.pubnub import pubnub
 
-__publish_key__ = 'publish key'
-__subscription_key__ = 'subscription key'
-__secret_key__ = 'secret key'
+__publish_key__ = 'pub-c-3d2baeb5-14e7-443b-907e-00660f6e5cd8'
+__subscription_key__ = 'sub-c-9b3fe756-e594-11e3-8ffe-02ee2ddab7fe'
+__secret_key__ = 'sec-c-MTVmMDJkOTctZjA5My00N2JmLWEwYjYtMWU5ODY3Yjc5MTdm'
 
 def resuscitate_mail(heart):
     message = mail.EmailMessage(sender="alerts@heartrate-monitor.appspotmail.com",
